@@ -13,7 +13,7 @@ hash = []
 
 def match(array, word)
  array.select do |element|
-  if   element == word.split("") 
+  if   element == word.split("")
 
 end
 end
