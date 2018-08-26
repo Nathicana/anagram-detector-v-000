@@ -12,7 +12,8 @@ end
 
 
 def match(array)
- array.select { |element|  element.split('').sort == @word.split("").sort}
+ array.select do |element| 
+    element.split('').sort == self.split("").sort}
 
 
 end
