@@ -9,10 +9,13 @@ def initialize(word)
   @word = word
 end
 
+hash = []
+
 def match(array)
 
   array.select do |element|
-    element.split("") == true
+  if   element.split("") == true
+    hash << element
 end
 end
 end
