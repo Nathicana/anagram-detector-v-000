@@ -13,7 +13,7 @@ def match(words)
 
   array.select do |element| (%w(array))
     if element.split("") == true
-      hash << element
+    
     end
 end
 end
