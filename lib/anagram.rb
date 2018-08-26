@@ -11,7 +11,7 @@ end
 
 hash = []
 
-def match(array, word)
+def match(array)
  array.select do |element|
   if   element == word.split("")
 
