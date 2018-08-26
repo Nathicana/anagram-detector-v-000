@@ -12,9 +12,9 @@ end
 
 
 def match(array)
- array.select do |element| 
+ array.select do |element|
     element.split('').sort == self.split("").sort}
 
-
+end
 end
 end
