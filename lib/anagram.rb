@@ -12,6 +12,6 @@ def match(array)
     if element.split("") == true
 end
 end 
-
+end
 
 end
