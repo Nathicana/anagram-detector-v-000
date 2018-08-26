@@ -1,19 +1,20 @@
 # Your code goes here!
 class Anagram
 
-attr_accessor :word
+attr_accessor :name 
 
 
 
 def initialize(word)
-  @word = word
+  @name  = word
 end
 
-hash = []
+
 
 def match(array)
  array.select do |element|
   if   element == word.split("")
+    
 
 end
 end
