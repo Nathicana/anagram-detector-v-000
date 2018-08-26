@@ -12,7 +12,7 @@ end
 def match(array)
 
   array.select do |element|
-    element.split("")
+    element.split("") == true
 end
 end
 end
