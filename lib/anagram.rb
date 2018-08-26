@@ -11,11 +11,11 @@ end
 
 def match(array)
 
-  array.select do |element| 
+  array.select do |element|
     if element.split("") == (%w(array))
       element
-      
-    
+
+
     end
 end
 end
