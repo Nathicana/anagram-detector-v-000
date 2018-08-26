@@ -8,10 +8,10 @@ def initialize(word)
 end
 
 def match(array)
-  array.select do |element| {(%w(word))}
+  array.select do |element| (%w(word))
     if element.split("") == true
 end
-end 
+end
 end
 
 end
