@@ -11,10 +11,9 @@ end
 
 hash = []
 
-def match(array)
-
-  array.select do |element|
-  if   element.split("") == true
+def match(array, word)
+ array.select do |element|
+  if   element == word.split("") 
 
 end
 end
