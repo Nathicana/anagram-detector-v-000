@@ -3,7 +3,7 @@ class Anagram
 
 attr_accessor :word
 
-hash = []
+
 
 def initialize(word)
   @word = word
