@@ -14,6 +14,6 @@ def match(array)
   array.select do |element|
     element.split("")
 end
-
+end
 end
   
