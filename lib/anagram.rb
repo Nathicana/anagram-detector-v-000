@@ -15,7 +15,7 @@ def match(array)
 
   array.select do |element|
   if   element.split("") == true
-    hash << element
+
 end
 end
 end
