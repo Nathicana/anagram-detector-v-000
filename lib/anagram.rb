@@ -1,7 +1,7 @@
 # Your code goes here!
 class Anagram
 
-attr_accessor :name 
+attr_accessor :name
 
 
 
@@ -12,11 +12,8 @@ end
 
 
 def match(array)
- array.select do |element|
-  if   element == word.split("")
-    
+ array.select { |element|  element.split('').sort == @name.split("").sort}
 
-end
-end
+
 end
 end
