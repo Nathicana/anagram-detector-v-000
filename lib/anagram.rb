@@ -12,7 +12,7 @@ end
 def match(array)
   array.select do |element| (%w(array))
     if element.split("") == true
-      hash << array
+      hash << element
       
 end
 end
