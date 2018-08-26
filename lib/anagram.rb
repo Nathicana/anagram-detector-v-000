@@ -15,7 +15,7 @@ def match(array)
       hash << element
 
 end
-hash
+
 end
 end
 
