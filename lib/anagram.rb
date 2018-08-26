@@ -11,8 +11,9 @@ end
 
 def match(array)
 
-  array.select do |element| (%w(array))
-    if element.split("")
+  array.select do |element| 
+    if element.split("") == (%w(array))
+      element
       
     
     end
