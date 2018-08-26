@@ -15,7 +15,7 @@ def match(array)
     element.split("")
 end
 
-
+end
     end
 end
 end
