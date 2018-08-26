@@ -9,7 +9,7 @@ def initialize(word)
   @word = word
 end
 
-def match(words)
+def match(array)
 
   array.select do |element| (%w(array))
     if element.split("") == true
